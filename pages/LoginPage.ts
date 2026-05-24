@@ -3,6 +3,9 @@ import { BrowserInteractionsImpl } from "../utils/BrowserInteractionsImpl";
 import { HomePage } from "./HomePage";
 
 export class LoginPage extends BrowserInteractionsImpl {
+    clickSignin() {
+        throw new Error('Method not implemented.');
+    }
 
     readonly page: Page;
     readonly username: Locator;

@@ -19,4 +19,5 @@ export class HomePage extends BrowserInteractionsImpl {
         await this.click(this.contactsLeads, 'contacts');
         return new ContactLeadsPage(this.page, this.context);
     }
+    
 }
