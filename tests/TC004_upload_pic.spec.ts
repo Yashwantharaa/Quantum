@@ -12,11 +12,6 @@ test('upload pic', async ({ page,homePage}) => {
         { type: 'TestCase', description: 'Upload pic and verify the name of picture is displayed' },
         { type: 'Test Description', description: "Verifying Upload pic and verify the name of picture is displayed" }
     );
-   //  await page.goto("https://apps.theauto-mate.com/crm/login.php");
-//     let loginPage = new LoginPage(page, context);
-//     await loginPage.enterUsername("test.automate");
-//     await loginPage.enterPassword("test@123");
-//     let homePage = await loginPage.clickSignin();
 let contactLeadsPage = await homePage.clickContacts();
 
     let Settings =await contactLeadsPage.clicksettings();
